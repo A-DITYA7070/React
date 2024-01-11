@@ -22,7 +22,10 @@ import header from "./index";
  * 13. HTTPS functionality on dev build. (npx parcel index.html --https)
  * 14. It manages port numbers..
  * 15. It uses consistent Hashing algorithm..
- * 16. Parcel is a zero config bundler.. 
+ * 16. Parcel is a zero config bundler..
+ * 17. Tree shaking :- removing unwanted code. the function which are not used in the code
+ *                     are removed automatically by parcel.. which helps in optimisation and makes app faster.
+ * create react app uses webpack bundler along with babel ... 
  * 
  * Any thing that can be generated on the server must be put in gitignore 
  * Transitive Dependencies :- React have some dependencies but these dependencies can also have more dependencies
